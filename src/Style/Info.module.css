@@ -1,0 +1,48 @@
+.parent {
+
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 3% 5%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.titel{
+    width: 20%;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.808);
+    background-color: gray;
+    color: aliceblue;
+    padding: 0.5% 2%;
+}
+.parentinfo{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 50px;
+grid-row-gap: 0px;
+}
+.tit{
+    width: 45%;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.808);
+    background-color: #A0E7E5;
+    padding: 0.4% 15%;
+}
+
+.titlebig{
+    width: 20%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.808);
+    background-color: #A0E7E5;
+    padding: 0.1% 10%;
+}
+.back{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    border-radius: 59% 41% 81% 19% / 44% 21% 79% 56% ;
+    width: 35%;
+}

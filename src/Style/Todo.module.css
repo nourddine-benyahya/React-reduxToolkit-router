@@ -1,0 +1,47 @@
+.parent {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    width: 80%;
+    padding: 5% 8%;
+
+}
+.child{
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 20px;
+}
+
+.uncom{
+    background-color: rgba(255, 58, 58, 0.699);
+    width: 100%;
+    padding: 2% 0;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+
+}
+.com{
+    background-color: rgba(42, 255, 42, 0.664);
+    width: 100%;
+    padding: 2% 0;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.hello{
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.747);
+    border: 1px solid gray;
+    color: aliceblue;
+    margin: 20px auto;
+}
